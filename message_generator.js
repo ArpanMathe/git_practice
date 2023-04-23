@@ -24,9 +24,9 @@ const subjects = [
 
 
 function message_genrator(){
-    let ran = (Math.ceil(Math.random()*5)-1)
+    let ran = (Math.ceil(Math.random()*5)-1);
     // console.log(ran)
-    output = (subjects[ran]+ " " + verbs[ran] + " " + objects[ran])
+    output = (subjects[ran]+ " " + verbs[ran] + " " + objects[ran]);
 
     return output
 }
