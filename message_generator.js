@@ -22,7 +22,6 @@ const subjects = [
     "patience",
   ];
 
-
 function message_genrator(){
     let ran = (Math.ceil(Math.random()*5)-1);
     // console.log(ran)
