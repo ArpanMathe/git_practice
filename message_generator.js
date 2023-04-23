@@ -31,5 +31,4 @@ function message_genrator(){
     return output
 }
 
-
 console.log(message_genrator())
